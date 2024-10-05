@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout/styles.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="container">
+    <div class="toolbar-container">
+        <div class="navdiv">
+            <ul class="nav-list">
+                <li>
+                      <button onclick="myFunction()" class="dropbtn">File</button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#">New</a>
+                        <a href="#">Open</a>
+                        <a href="#">Save As</a>
+                        <a href="#">Save</a>
+                        <a href="#">Print</a>
+                        <a href="#">Page-Setup</a>
+                      </div>
+                    </li>
+                <li>Edit</li>
+                <li>View</li>
+                <li>Insert</li>
+                <li>Format</li>
+                <li>Tools</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="tooldiv">
+        <button class="tools" name="bold" onclick="boldtext()">Bold</button>
+        <button class="tools" onclick="color()">Color</button>
+        <button class="tools" onclick="highlight()">Background-Color</button>
+        <button class="tools" onclick="italictext()">Italic</button>
+        <button class="tools" onclick="underline()">Underline</button>
+        <button class="tools" onclick="strikethrough()">strikethrough</button>
+        <button class="tools" onclick="alignleft()">Align-Left</button>
+        <button class="tools" onclick="aligncenter()">Align-Center</button>
+        <button class="tools" onclick="alignright()">Align-Right</button>
+    </div>
+    </div>
+    <div class="cell-container">
+        
+    </div>
+    </div>
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
